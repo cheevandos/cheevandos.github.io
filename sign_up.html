@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://use.fontawesome.com/4be758a563.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Конфигуратор ПК - помощь в сборке компьютера, проверка совместимости комплектующих">
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Конфигуратор ПК</title>
+	</head>
+
+	<body>
+		<nav class="header navbar sticky-top navbar-expand-xl navbar-dark bg-dark">
+			<div class="container col-xl-10 offset-xl-1 col-12 p-0 justify-content-start justify-content-xl-between">
+			  <button class="navbar-toggler px-2 p-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span><i class="fa fa-bars"></i></span>
+			  </button>
+			  <a class="navbar-brand ml-2 ml-xl-0 p-0" href="index.html"><img src="img/full_logo2x.png" class="logo"></a>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto align-items-xl-center">
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle py-3" href="#" id="pcDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Готовые&nbsp;сборки</a>
+			        <div class="dropdown-menu" aria-labelledby="pcDropdown">
+			        	<a class="dropdown-item py-2" href="not_available.html">Для&nbsp;офиса</a>
+			        	<a class="dropdown-item py-2" href="not_available.html">Для&nbsp;дома</a>
+			        	<a class="dropdown-item py-2" href="not_available.html">Игровые</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle py-3" href="#" id="componentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Комплектующие</a>
+			        <div class="dropdown-menu" aria-labelledby="componentsDropdown">
+			          <a class="dropdown-item py-2" href="not_available.html">Видеокарты</a>
+			          <a class="dropdown-item py-2" href="not_available.html">Материнские&nbsp;платы</a>
+			          <a class="dropdown-item py-2" href="not_available.html">Процессоры</a>
+			          <a class="dropdown-item py-2" href="not_available.html">Блоки&nbsp;питания</a>
+			          <a class="dropdown-item py-2" href="not_available.html">Хранениие&nbsp;данных</a>
+			          <a class="dropdown-item py-2" href="not_available.html">Охлаждение</a>
+			        </div>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+		</nav>
+		<div class="container col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-xl-4 offset-xl-4 col-12">
+			<div class="card my-4">
+				<div class="card-body">
+					<a class="btn btn-outline-info btn-block" href="index.html" target="_self">Вернуться&nbsp;на&nbsp;главную</a>
+					<h5 class="text-center my-4">Создайте новую учетную&nbsp;запись</h2>
+					<form action="account.html">
+						<div class="form-group">
+							<label for="email-input">Адрес вашей электронной почты:</label>
+							<input type="email" class="form-control" required="required" id="email-input" placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label for="username-input">Придумайте имя пользователя:</label>
+							<input type="text" class="form-control" required="required" id="username-input" placeholder="User_12345">
+							<small>Только буквы A-Z, a-z, цифры и символ подчеркивания</small>
+						</div>
+						<div class="form-group">
+							<label for="password-first-input">Придумайте пароль:</label>
+							<input type="password" class="form-control" required="required" id="password-first-input">
+							<ul class="pl-3">
+								<li><small>не менее 8 символов</small></li>
+								<li><small>минимум 1 буква в верхнем регистре</small></li>
+								<li><small>минимум 1 цифра</small></li>
+							</ul>						
+						</div>
+						<div class="form-group">
+							<label for="password-confirm">Повторите пароль:</label>
+							<input type="password" class="form-control" required="required" id="password-confirm">
+						</div>						
+						<button type="submit" class="btn btn-dark btn-block btn-lg">Создать учетную запись</button>
+					</form>
+					<h5 class="text-center my-4">или&nbsp;войдите в&nbsp;существующую</h2>
+					<a class="btn btn-secondary btn-block btn-lg" href="sign_in.html">Выполнить вход</a>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
